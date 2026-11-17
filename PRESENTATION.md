@@ -1,28 +1,32 @@
 # The Commons Machine
 
-Interactive doctoral research presentation on knowledge, participation and collective learning in complex decisions.
+Interactive research presentation and provisional doctoral manuscript workspace.
 
 ## Open
-Open `index.html` in a browser. No installation or build is required. All assets are local and work offline.
+Open `index.html` in a browser, or visit the published GitHub Pages site. No build or installation is required.
 
+## Languages
+Català, Español, English, Français and Wolof. The switcher translates all 16 slides, speaker notes, diagrams, interactive panels, navigation and the provisional manuscript structure. Bibliographic titles retain their original language. Wolof is a draft awaiting fluent-speaker review.
+
+Language selection is stored on the current browser and encoded in shareable links, e.g. `?lang=ca#4` or `?lang=fr&view=manuscript#2`. Switching language preserves the current slide/chapter and the selected exploration tab.
+
+## Manuscript
+The manuscript section contains ten **proposed placeholders**, requested by the author until their written thesis is supplied. They are not completed chapters or invented research findings. See `manuscript/README.md` for the empty Markdown writing templates. The website does not yet contain actual thesis text.
+
+## Controls
 - Arrow keys / Page Up / Page Down: navigate
-- N: toggle speaker notes
+- N: speaker notes (presentation)
 - F: full screen
-- Case and methodology tabs: explore details
-- Bibliography: search references and open primary links
-- Print / PDF: print the complete presentation
+- Tab / arrow keys: accessible panel tabs
+- Print / PDF: the complete current-language presentation, or the complete proposed manuscript outline
 
-## Contents
-- `index.html`, `style.css`, `data.js`, `app.js`: presentation
-- `RESEARCH.md`: research narrative and speaker notes
-- `BIBLIOGRAPHY.md`: working bibliography
-- `build.py`: regenerates research data and Markdown documents
+## Source
+- `index.html`, `style.css`, `app.js`: interface
+- `translations.js`: five-language presentation data and bibliography
+- `localize.py`: regenerates translations and creates missing empty chapter templates
+- `data.js`, `build.py`, `RESEARCH.md`, `BIBLIOGRAPHY.md`: original English proposal data and documents
 
-## GitHub Pages
-In repository Settings → Pages, select deployment from a branch, the default branch, and `/ (root)`. No external scripts, analytics, fonts, packages or services are required.
+The current dark teal, lime and serif styling is retained pending the author's earlier visual-identity reference.
 
 ## Research status
-This is a proposal, not a report of completed findings. The B Economy case definition, field access and case boundaries remain open. The design-and-test phase is conditional. Palantir is a separate documentary strand; no deployment in the three field cases is assumed.
-
-## Validation
-JavaScript syntax checked with Node. Browser interaction and layout checks remain pending.
+All cases are planned. B Economy definition, case boundaries and field access remain open. The design-and-test phase is conditional. Palantir is a separate documentary strand; no field-case deployment is assumed.
